@@ -5,13 +5,15 @@ import { AdminRoutingModule } from './admin-routing.module';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from '../template/navbar/navbar.component';
 
 
 @NgModule({
   declarations: [
     RegisterComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent
   ],
   imports: [
     CommonModule,
