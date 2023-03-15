@@ -1,0 +1,29 @@
+#hello {
+
+    background-image: url(https://tophat.com/wp-content/uploads/BLOG_how-to-motivate-students.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+
+}
+
+.btn-primary {
+    background: #ffbc3b;
+    color: #fff;
+}
+
+.btn {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    border-radius: 0;
+    font-weight: 500;
+    border: 0;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
+    overflow: hidden;
+}

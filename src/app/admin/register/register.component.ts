@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class RegisterComponent {
 
+// declare an empty list
+
+
+users: any[] = [];
+
+
+
+
+
 }
